@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: null
+  datasource:
+    url: null
+    username: ''
+    password: ''
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enable: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /openapi/api.yaml
+  api-docs:
+    path: /v3/api-docs

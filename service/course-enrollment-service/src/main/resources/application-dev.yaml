@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: course-enrollment-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/course-enrollment-db
+    driver-class-name: org.postgresql.Driver
+    username: 'admin'
+    password: 'admin'
+  jpa:
+    show-sql: true
+  flyway:
+    enable: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /openapi/api.yaml
+  api-docs:
+    path: /v3/api-docs
