@@ -1,0 +1,122 @@
+-- V2__seed_courses.sql
+
+INSERT INTO course (title, capacity, enrolled, version) VALUES
+-- Computer Science
+('Introduction to Computer Science', 50, 42, 0),
+('Data Structures and Algorithms', 40, 40, 0),
+('Object-Oriented Programming with Java', 45, 38, 0),
+('Functional Programming with Scala', 30, 22, 0),
+('Compiler Design and Theory', 25, 25, 0),
+('Operating Systems Fundamentals', 40, 31, 0),
+('Computer Networks and Protocols', 35, 29, 0),
+('Distributed Systems Engineering', 25, 24, 0),
+('Computer Architecture and Assembly', 30, 18, 0),
+('Theory of Computation', 25, 10, 0),
+
+-- Web Development
+('Web Development with React', 35, 28, 0),
+('Advanced TypeScript for Developers', 30, 30, 0),
+('Full Stack Development with Next.js', 40, 33, 0),
+('Backend Development with Node.js', 35, 27, 0),
+('GraphQL API Design', 25, 19, 0),
+('Progressive Web Apps', 30, 14, 0),
+('Web Performance Optimization', 25, 25, 0),
+('Accessibility in Web Design', 20, 7, 0),
+('CSS Architecture and Design Systems', 25, 21, 0),
+('Browser Internals and DevTools', 20, 11, 0),
+
+-- Backend & Java
+('Spring Boot Microservices', 30, 0, 0),
+('Spring Security and OAuth2', 25, 18, 0),
+('Building REST APIs with Spring Boot', 40, 36, 0),
+('Java Concurrency and Multithreading', 30, 28, 0),
+('Reactive Programming with Project Reactor', 25, 13, 0),
+('Hibernate and JPA Deep Dive', 30, 22, 0),
+('Event-Driven Architecture with Kafka', 25, 25, 0),
+('gRPC and Protobuf for Java Developers', 20, 9, 0),
+('Java Performance Tuning and JVM Internals', 25, 17, 0),
+('Domain-Driven Design in Java', 30, 24, 0),
+
+-- Database
+('Database Design and SQL', 45, 12, 0),
+('PostgreSQL Advanced Features', 30, 26, 0),
+('NoSQL with MongoDB', 35, 31, 0),
+('Redis Caching Strategies', 25, 20, 0),
+('Data Warehousing and OLAP', 30, 15, 0),
+('Graph Databases with Neo4j', 20, 8, 0),
+('Database Query Optimization', 25, 22, 0),
+('Time Series Databases with InfluxDB', 20, 6, 0),
+('Elasticsearch and Full-Text Search', 25, 19, 0),
+('Database Migration Strategies', 20, 20, 0),
+
+-- DevOps & Cloud
+('DevOps and CI/CD Pipelines', 20, 17, 0),
+('Cloud Architecture with AWS', 25, 25, 0),
+('Kubernetes for Developers', 30, 27, 0),
+('Docker and Containerization', 35, 33, 0),
+('Terraform and Infrastructure as Code', 25, 21, 0),
+('Observability with Prometheus and Grafana', 20, 14, 0),
+('Site Reliability Engineering', 25, 23, 0),
+('GitOps and ArgoCD', 20, 12, 0),
+('AWS Lambda and Serverless Architecture', 30, 18, 0),
+('GCP Professional Cloud Architect', 25, 10, 0),
+
+-- Machine Learning & AI
+('Machine Learning Fundamentals', 30, 30, 0),
+('Deep Learning with PyTorch', 25, 24, 0),
+('Natural Language Processing', 25, 22, 0),
+('Computer Vision with OpenCV', 20, 18, 0),
+('Reinforcement Learning', 20, 9, 0),
+('MLOps and Model Deployment', 25, 21, 0),
+('Large Language Models and Prompt Engineering', 30, 30, 0),
+('Feature Engineering for ML', 25, 16, 0),
+('Recommendation Systems', 20, 13, 0),
+('AI Ethics and Responsible ML', 30, 11, 0),
+
+-- Data Engineering
+('Data Engineering with Apache Spark', 25, 22, 0),
+('ETL Pipeline Design', 30, 18, 0),
+('Apache Airflow for Data Orchestration', 25, 20, 0),
+('Streaming Data with Apache Flink', 20, 15, 0),
+('Data Lake Architecture', 25, 19, 0),
+('dbt for Data Transformation', 20, 14, 0),
+('Snowflake Data Platform', 25, 23, 0),
+('Real-Time Analytics Engineering', 20, 17, 0),
+('Data Governance and Cataloguing', 25, 8, 0),
+('Python for Data Engineering', 35, 34, 0),
+
+-- Security
+('Cybersecurity Fundamentals', 35, 9, 0),
+('Ethical Hacking and Penetration Testing', 20, 20, 0),
+('Application Security and OWASP Top 10', 25, 22, 0),
+('Zero Trust Architecture', 20, 11, 0),
+('Secure Software Development Lifecycle', 25, 18, 0),
+('Cryptography for Developers', 20, 7, 0),
+('Cloud Security on AWS', 25, 21, 0),
+('Identity and Access Management', 20, 16, 0),
+('Incident Response and Forensics', 20, 12, 0),
+('Threat Modelling for Engineers', 25, 9, 0),
+
+-- System Design & Architecture
+('System Design for Engineers', 25, 24, 0),
+('Microservices Architecture Patterns', 30, 26, 0),
+('API Gateway and Service Mesh', 25, 20, 0),
+('CQRS and Event Sourcing', 20, 18, 0),
+('Designing for High Availability', 25, 23, 0),
+('Saga Pattern and Distributed Transactions', 20, 15, 0),
+('Clean Architecture and SOLID Principles', 30, 28, 0),
+('Monolith to Microservices Migration', 25, 13, 0),
+('Message Queue Design with RabbitMQ', 20, 10, 0),
+('Scalability Patterns and Anti-Patterns', 25, 22, 0),
+
+-- Soft Skills & Engineering Culture
+('Technical Writing for Engineers', 20, 6, 0),
+('Engineering Leadership and Management', 15, 14, 0),
+('Agile and Scrum for Development Teams', 30, 27, 0),
+('Code Review Best Practices', 25, 19, 0),
+('Debugging and Problem Solving', 30, 24, 0),
+('Open Source Contribution Workshop', 20, 8, 0),
+('Career Growth for Senior Engineers', 20, 20, 0),
+('Building and Leading Engineering Teams', 15, 11, 0),
+('Effective Communication for Developers', 25, 17, 0),
+('From Engineer to Architect', 20, 18, 0);
